@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #f4f4f4 0%, #e0e7ff 100%);
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+}
+
+footer {
+    background: #333;
+    color: #ffffff;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px auto;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+}
+
+nav {
+    background: #222;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+nav ul li a:hover {
+    background: #0077cc;
+    color: #fff;
+}
+
+/* Card style for About section */
+#about {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 30px 20px;
+}
+
+/* Social section icons spacing */
+#social a {
+    display: inline-block;
+    margin: 10px 20px;
+    vertical-align: middle;
+}
+
+a.button {
+    display: inline-block;
+    background: #0077cc;
+    color: #fff !important;
+    padding: 10px 24px;
+    border-radius: 6px;
+    margin-top: 15px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+a.button:hover {
+    background: #005fa3;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto 40px auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+    padding: 32px 24px;
+}
+ nav {
+    background: #222;
+    padding: 10px 0;
+text-align: center;
+ }
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #ff9800
+}
+
+ /* blog section styles */
+#blog {
+    padding: 20px;
+    background: #fafafa;
+    text-align: left;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+#blog h3 {
+    color: #0077cc;
+}
+
+/* contact section */
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+    form button {
+        padding: 10px 20px;
+        background: green;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    form button:hover {
+        background: darkgreen;
+    }
